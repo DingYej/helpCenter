@@ -1,0 +1,344 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul { 
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+font-weight: 800;
+}
+a {
+color: inherit;
+text-decoration: none;
+}
+body {
+background: rgb(240, 240, 240);
+font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+font-size: 14px;
+color: #444;
+}
+/* 内容区开始 */
+.helpCenter{
+    width: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+    margin: 20px 0;
+}
+.contentMall-jz{
+    width: 1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.contentMall-left,.contentMall-right{
+    float: left;
+    /* height: 650px; */
+    min-height: 800px;
+    background-color: #fff
+}
+.contentMall-left{
+    width: 240px;
+    margin-right: 20px;
+    position: relative;
+}
+.contentMall-right{
+   width: 940px;
+   overflow: hidden;
+}
+.contentMall-left-tit{
+   height: 50px;
+   background-color: rgb(255, 153, 153);
+   color: #fff;
+   font-size: 20px;
+   line-height: 50px;
+   padding-left: 20px;
+   font-weight: 600;
+   width: 220px;
+}
+.contentMall-left-list{
+    background-color: #fff;
+    font-size: 16px;
+}
+.contentMall-left-list li{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 26px;
+}
+.contentMall-left-list li i{
+    font-size: 12px;
+    margin-right: 3px;
+    position: relative;
+    top: -1px;
+    left: 0;
+}
+.contentMall-bor{
+    border-top: 1px solid rgb(240, 240, 240);
+}
+.contentMall-left-list .on{
+    color: rgb(243, 190, 190);
+}
+.contentMall-left-list  .on i{
+   color: rgb(223, 43, 43);
+}
+.box{
+    display: none;
+}
+.active{
+    display: block;
+}
+.contentMall-left-list li:nth-child(4),.contentMall-left-list li:nth-child(5),.contentMall-left-list li:nth-child(8),.contentMall-left-list li:nth-child(10){
+    margin-top: 50px;
+}
+.contentMall-left p:nth-child(2){
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+.contentMall-left p:nth-child(3){
+    position: absolute;
+    top: 302px;
+    left: 0;
+}
+.contentMall-left p:nth-child(4){
+    position: absolute;
+    top: 502px;
+    left: 0;
+}
+.contentMall-left p:nth-child(5){
+    position: absolute;
+    top: 653px;
+    left: 0;
+}
+.public-con{
+    padding: 20px;
+}
+.information-tit{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.information-con-right,.information-con-left{
+    float: left;
+}
+.information-con-left{
+    width: 125px;
+    height: 125px;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 50%;
+    margin: 45px 50px 0 28px;
+}
+.helpCenter-con{
+    font-size: 16px;
+    line-height: 30px;
+}
+.integralRules-sm p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.integralRules-sm-con{
+    font-size: 16px;
+    margin: 20px 0 45px;
+    line-height: 30px;
+}
+/* 每日任务开始 */
+.dailyTask{
+   overflow: hidden;
+   overflow: hidden;
+    padding-bottom: 43px;
+    border-bottom: 2px solid #eee;
+}
+.dailyTask-left,.dailyTask-right{
+    float: left;
+}
+.dailyTask-left{
+    width: 290px;
+}
+.dailyTask-left-tit{
+    font-size: 18px;
+    font-weight: 700;
+}
+.dailyTask-left-tit img{
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+.dailyTask-left-con{
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+}
+.dailyTask-left-con> * {
+    flex: 1 100%;
+}
+.dailyTask-xd{
+    font-size: 16px;
+    font-weight: 200;
+}
+.dailyTask-xd span{
+    font-size: 30px;
+    color: rgb(223, 43, 43);
+    margin: 0 5px;
+    position: relative;
+    top: 3px;
+}
+.dailyTask-btn{
+    margin: 25px 0 10px;
+}
+.dailyTask-btn span{
+    display: inline-block;
+    width: 177px;
+    height: 35px;
+    font-size: 16px;
+    background-color: rgb(223, 43, 43);
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 300;
+}
+.dailyTask-mx-l{
+    width: 177px;
+    height: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 40px;
+}
+.dailyTask-mx span:last-child{
+    float: right;
+}
+.dailyTask-mx span:first-child{
+    float: left;
+}
+.dailyTask-mx-l img{
+    position: relative;
+    top: -12px;
+    left: -17px;
+}
+.dailyTask-right{
+    width: 600px;
+    overflow: hidden;
+}
+.dailyTask-right-tit{
+    font-size: 16px;
+    float: right;
+    line-height: 30px;
+}
+.dailyTask-right-z{
+    overflow: hidden;
+}
+/* 日历开始 */
+.active {
+    display: inline-block;
+}
+.dailyTask-rls{
+    margin-top: 42px;
+}
+.dailyTask-rls span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 15px 10px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dailyTask-rls  span.active {
+    background-color: rgb(223, 43, 43);
+    color: #fff;
+    border-color: transparent;
+}
+.dailyTask-rls  span.yqd {
+    border-color: rgb(223, 43, 43);
+    color: rgb(223, 43, 43);
+    background-color:#fff;
+    background: url(../images/qdcz.png) no-repeat;
+}
+.dailyTask-rls span:nth-child(8),.dailyTask-rls span:nth-child(15),.dailyTask-rls span:nth-child(23),.dailyTask-rls span:nth-child(27){
+    color:transparent;
+    background: url(../images/liwu.png) no-repeat;
+    border:none;
+}
+/* 日历结束 */
+.dailyTask-ts{
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    margin:22px 0 0 16px;
+}
+.theProgress{
+    overflow: hidden;
+}
+.theProgress-tit{
+   overflow: hidden;
+   margin: 20px 0;
+}
+.theProgress-tit span:first-child{
+    font-size: 18px;
+    font-weight: 700;
+}
+.theProgress-tit span:last-child{
+    color: rgb(223, 43, 43);
+    margin-left: 20px;
+    font-size: 14px;
+}
+.theProgress-con-1,.theProgress-con-2{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.theProgress-con-1 i{
+    color: rgb(223, 43, 43);
+    margin-left: 5px;
+}
+.theProgress-con-1 img{
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+.theProgress-btn{
+    width: 180px;
+    height: 35px;
+    border: 1px solid rgb(223, 43, 43);
+    line-height: 35px;
+    color: rgb(223, 43, 43);
+    text-align: center;
+    border-radius: 20px;
+}
+/* 每日任务结束 */
+/* 内容区结束 */
