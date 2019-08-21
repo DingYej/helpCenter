@@ -8,6 +8,7 @@
     <title>帮助中心</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/layui/css/layui.css">
 </head>
 
 <body>
@@ -34,7 +35,7 @@
             </div>
             <div class="contentMall-right">
                 <!-- 注册流程 -->
-                <div class="box">
+                <div class="box active">
                     <div class="public-con">
                         <div class="information-tit">注册流程</div>
                         <div class="helpCenter-con">
@@ -112,7 +113,7 @@
                     </div>
                 </div>
                 <!-- 每日任务 -->
-                <div class="box active">
+                <div class="box">
                     <div class="public-con">
                         <div class="information-tit">每日任务</div>
                         <div class="dailyTask">
@@ -158,35 +159,251 @@
                 <div class="box">
                     <div class="public-con">
                         <div class="information-tit">成长任务</div>
-                        <div class="helpCenter-con"></div>
+                        <div class="growthTask">
+                            <table style="border-width:0;" class="layui-table" lay-skin="line">
+                                <colgroup>
+                                    <col width="200">
+                                    <col width="150">
+                                    <col width="150">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>事项</th>
+                                        <th>积分</th>
+                                        <th>备注</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>完善信息</td>
+                                        <td>+10</td>
+                                        <td>去"我的商城"完善</td>
+                                    </tr>
+                                    <tr>
+                                        <td>账号绑定微信</td>
+                                        <td>+60</td>
+                                        <td>去"我的商城"完善</td>
+                                    </tr>
+                                    <tr>
+                                        <td>关注"第二教育网公众号"</td>
+                                        <td>+30</td>
+                                        <td>商城首页</td>
+                                    </tr>
+                                    <tr>
+                                        <td>收藏网站</td>
+                                        <td>+12</td>
+                                        <td>收藏网站</td>
+                                    </tr>
+                                    <tr>
+                                        <td>邀请好友</td>
+                                        <td>+19</td>
+                                        <td>去"邀请好友"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>签到领学豆</td>
+                                        <td>+17</td>
+                                        <td>每日任务</td>
+                                    </tr>
+                                    <tr>
+                                        <td>签到领学豆</td>
+                                        <td>+125</td>
+                                        <td>每日任务</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 <!-- 更多任务 -->
                 <div class="box">
                     <div class="public-con">
                         <div class="information-tit">更多任务</div>
-                        <div class="helpCenter-con"></div>
+                        <div class="moreTask">
+                            <div class="moreTask-mobile">
+                                <p>1、移动端：</p>
+                                <span>扫二维码微信课程服务码</span>
+                                <img src="./images/wxzz.png" alt="">
+                            </div>
+                            <div class="moreTask-pc">
+                                <p>2、有奖评价：</p>
+                                <span>对下载成功的资源进行评价，评价予以采纳增加10积分！</span><span class="moreTask-btn">去评价</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- 我的下载 -->
                 <div class="box">
                     <div class="public-con">
                         <div class="information-tit">我的下载</div>
-                        <div class="helpCenter-con"></div>
+                        <div class="myDownload">
+                            <table style="border-width:0;" class="layui-table" lay-skin="line">
+                                <colgroup>
+                                    <col width="300">
+                                    <col width="150">
+                                    <col width="150">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>资源名称</th>
+                                        <th>下载日期</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>资源名称资源名称资源名称资源名称资源名称资源名称资源名称</td>
+                                        <td>1902-12-23</td>
+                                        <td><span class="mfxz">免费下载</span><span class="gg-z">|</span><span
+                                                class="evaluation">评价</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>资源名称资源名称资源名称资源名称资源名称资源名称资源名称</td>
+                                        <td>1902-12-23</td>
+                                        <td><span class="mfxz">免费下载</span><span class="gg-z">|</span><span
+                                                class="evaluation">评价</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>资源名称资源名称资源名称资源名称资源名称资源名称资源名称</td>
+                                        <td>1902-12-23</td>
+                                        <td><span class="mfxz">免费下载</span><span class="gg-z">|</span><span
+                                                class="evaluation">评价</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>资源名称资源名称资源名称资源名称资源名称资源名称资源名称</td>
+                                        <td>1902-12-23</td>
+                                        <td><span class="mfxz">免费下载</span><span class="gg-z">|</span><span
+                                                class="evaluation">评价</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>资源名称资源名称资源名称资源名称资源名称资源名称资源名称</td>
+                                        <td>1902-12-23</td>
+                                        <td><span class="mfxz">免费下载</span><span class="gg-z">|</span><span
+                                                class="evaluation">评价</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>资源名称资源名称资源名称资源名称资源名称资源名称资源名称</td>
+                                        <td>1902-12-23</td>
+                                        <td><span class="mfxz">免费下载</span><span class="gg-z">|</span><span
+                                                class="evaluation">评价</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>资源名称资源名称资源名称资源名称资源名称资源名称资源名称</td>
+                                        <td>1902-12-23</td>
+                                        <td><span class="mfxz">免费下载</span><span class="gg-z">|</span><span
+                                                class="evaluation">评价</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 <!-- 我的上传 -->
                 <div class="box">
                     <div class="public-con">
                         <div class="information-tit">我的上传</div>
-                        <div class="helpCenter-con"></div>
+                        <div class="iUpload">
+                            <table style="border-width:0;" class="layui-table" lay-skin="line">
+                                <colgroup>
+                                    <col width="300">
+                                    <col width="150">
+                                    <col width="150">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>资源名称</th>
+                                        <th>下载日期</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>资源名称资源名称资源名称资源名称资源名称资源名称资源名称</td>
+                                        <td>1902-12-23</td>
+                                        <td><span class="iUpload-btn">我也不知道？</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>资源名称资源名称资源名称资源名称资源名称资源名称资源名称</td>
+                                        <td>1902-12-23</td>
+                                        <td><span class="iUpload-btn">我也不知道？</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>资源名称资源名称资源名称资源名称资源名称资源名称资源名称</td>
+                                        <td>1902-12-23</td>
+                                        <td><span class="iUpload-btn">我也不知道？</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>资源名称资源名称资源名称资源名称资源名称资源名称资源名称</td>
+                                        <td>1902-12-23</td>
+                                        <td><span class="iUpload-btn">我也不知道？</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>资源名称资源名称资源名称资源名称资源名称资源名称资源名称</td>
+                                        <td>1902-12-23</td>
+                                        <td><span class="iUpload-btn">我也不知道？</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>资源名称资源名称资源名称资源名称资源名称资源名称资源名称</td>
+                                        <td>1902-12-23</td>
+                                        <td><span class="iUpload-btn">我也不知道？</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>资源名称资源名称资源名称资源名称资源名称资源名称资源名称</td>
+                                        <td>1902-12-23</td>
+                                        <td><span class="iUpload-btn">我也不知道？</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 <!-- 热点问题 -->
                 <div class="box">
                     <div class="public-con">
-                        <div class="information-tit">热点问题</div>
-                        <div class="helpCenter-con"></div>
+                        <div style="margin-bottom:0px;" class="information-tit">热点问题</div>
+                        <div class="hotIssue">
+                            <div class="hotIssue-con">
+                                <p>1、什么是积分？</p>
+                                <div class="hotIssue-con-cont">
+                                    具体的文字说明具体的文字说明具体的文字说明。具体的文字说明具体的文字说明具体的文字说明具体的文字说明具体的文字说明具体的文字说明。具体的文字说明具体的文字说明。
+                                </div>
+                            </div>
+                            <div class="hotIssue-con">
+                                <p>1、什么是积分？</p>
+                                <div class="hotIssue-con-cont">
+                                    具体的文字说明具体的文字说明具体的文字说明。具体的文字说明具体的文字说明具体的文字说明具体的文字说明具体的文字说明具体的文字说明。具体的文字说明具体的文字说明。
+                                </div>
+                            </div>
+                            <div class="hotIssue-con">
+                                <p>2、如何获取积分？</p>
+                                <div class="hotIssue-con-cont">
+                                    具体的文字说明具体的文字说明具体的文字说明。具体的文字说明具体的文字说明具体的文字说明具体的文字说明具体的文字说明具体的文字说明。具体的文字说明具体的文字说明。
+                                </div>
+                            </div>
+                            <div class="hotIssue-con">
+                                <p>3、如何查询积分？</p>
+                                <div class="hotIssue-con-cont">
+                                    具体的文字说明具体的文字说明具体的文字说明。具体的文字说明具体的文字说明具体的文字说明具体的文字说明具体的文字说明具体的文字说明。具体的文字说明具体的文字说明。
+                                </div>
+                            </div>
+                            <div class="hotIssue-con">
+                                <p>4、我的积分有问题怎么办？</p>
+                                <div class="hotIssue-con-cont">
+                                    具体的文字说明具体的文字说明具体的文字说明。具体的文字说明具体的文字说明具体的文字说明具体的文字说明具体的文字说明具体的文字说明。具体的文字说明具体的文字说明。
+                                </div>
+                            </div>
+                            <div class="hotIssue-con">
+                                <p>5、如何查看我的历史订单？</p>
+                                <div class="hotIssue-con-cont">
+                                    具体的文字说明具体的文字说明具体的文字说明。具体的文字说明具体的文字说明具体的文字说明具体的文字说明具体的文字说明具体的文字说明。具体的文字说明具体的文字说明。
+                                </div>
+                            </div>
+                            <div class="hotIssue-con">
+                                <p>6、兑换礼品没有收到怎么办？</p>
+                                <div class="hotIssue-con-cont">
+                                    具体的文字说明具体的文字说明具体的文字说明。具体的文字说明具体的文字说明具体的文字说明具体的文字说明具体的文字说明具体的文字说明。具体的文字说明具体的文字说明。
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -194,6 +411,8 @@
     </div>
 </body>
 <script src="./js/jquery.min.js"></script>
+<script src="./css/layui/layui.js"></script>
+<script src="./css/layui/layui.all.js"></script>
 <script>
     function dgh(d, t, y, v) {
         $(d).on("click", function () {
@@ -213,6 +432,7 @@
     var firstday = new Date();    //本月第一天的日期
     firstday.setDate(1);
     var firstdayweek = firstday.getDay();  //本月第一天星期几
+    console.log(firstdayweek)
     //生成日历
     var dayinfo = '',
         num = 0,
@@ -262,6 +482,12 @@
         } else {
             alert('亲，您已经签过到了！')
         }
+    });
+
+    layui.use(['layer', 'form', 'laydate', 'laypage'], function () {
+        var form = layui.form;
+        var laydate = layui.laydate;
+        var laypage = layui.laypage;
     });
 </script>
 
